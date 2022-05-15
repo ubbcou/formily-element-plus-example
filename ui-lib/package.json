@@ -1,0 +1,44 @@
+{
+  "name": "ui-lib",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "build": "rollup -c",
+    "preview": "vite preview"
+  },
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "browser": "dist/index.iife.js",
+  "pkg": "dist/index.iife.js",
+  "dependencies": {
+    "resize-observer-polyfill": "^1.5.1",
+    "vuedraggable": "^2.24.3"
+  },
+  "devDependencies": {
+    "@bc/eslint-config-vue3": "^0.2.0",
+    "@formily/core": "^2.1.2",
+    "@formily/grid": "^2.1.2",
+    "@formily/reactive-vue": "^2.1.2",
+    "@formily/vue": "^2.1.2",
+    "@rollup/plugin-alias": "^3.1.9",
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@types/node": "^17.0.33",
+    "@types/vuedraggable": "^2.24.0",
+    "@vitejs/plugin-vue": "^2.3.1",
+    "@vue/compiler-sfc": "^3.1.x",
+    "element-plus": "^2.2.0",
+    "eslint": "^8.15.0",
+    "less": "^4.1.2",
+    "postcss": "^8.4.13",
+    "rollup": "^2.73.0",
+    "rollup-plugin-external-globals": "^0.6.1",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "sass": "^1.51.0",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.7",
+    "vue": "latest",
+    "vue-tsc": "^0.34.7"
+  }
+}
